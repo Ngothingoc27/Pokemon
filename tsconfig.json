@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "module": "CommonJs",
+        "moduleResolution": "Node",
+        "outDir": "dist"
+    }
+}
