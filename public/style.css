@@ -1,3 +1,11 @@
+@import url(./style.scss);
+
 *{
     background-color: rgb(133, 21, 238);
+}
+.item :hover {
+ background-color: aqua;
+}
+.click1 {
+    border-color: crimson;
 }

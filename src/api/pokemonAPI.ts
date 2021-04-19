@@ -15,6 +15,7 @@ class pokemonAPI {
             pokemonArr = [...pokemonArr, {id: pokemon.id, name: pokemon.name, image: pokemon.sprites.front_shiny }];
         }
         let pokemon_save = [...pokemonArr, ...pokemonArr];
+        console.log(pokemon_save);
         pokemon_save.sort(() => Math.random() - 0.5);
         return pokemon_save
     }
